@@ -29,7 +29,7 @@ const DayColumn: React.FC<DayColumnProps> = ({ day, dayIndex, onChange, compact 
       <div className="bg-primary/40 px-1 py-0.5 text-center border-b border-border">
         <div className="text-[10px] font-medium text-primary-foreground/80">{DAY_NAMES[dayIndex]}</div>
         <div className="text-xs font-semibold text-primary-foreground">
-          {format(dateObj, "M/d")}
+          {format(dateObj, "d/M")}
         </div>
       </div>
 
